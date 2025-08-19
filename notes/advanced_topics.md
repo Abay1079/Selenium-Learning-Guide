@@ -116,9 +116,9 @@ POM makes your code more reusable and maintainable.
 ## 9. Integration with Testing Frameworks
 Combine Selenium with testing tools:
 
-- unittest (Python built-in)
-- pytest (popular, flexible)
-- robotframework (keyword-driven)
+- **unittest** (Python built-in)
+- **pytest** (popular, flexible)
+- **robotframework** (keyword-driven)
 
 Example with pytest:
 
@@ -134,8 +134,8 @@ def test_google_title():
 
 ## 10. Tips for Stability
 
-- Prefer explicit waits over time.sleep().
-- Use unique locators (IDs > XPath).
+- Prefer **explicit waits** over `time.sleep()`.
+- Use **unique locators** (IDs > XPath).
 - Handle dynamic content carefully.
 - Keep drivers up to date.
 
